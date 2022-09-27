@@ -1,0 +1,178 @@
+.navbar-elements {
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 1%;
+}
+
+.nav-items {
+  list-style: none;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.nav-links ul li {
+  font-weight: 700;
+  display: inline-block;
+  font-size: large;
+  padding: 10px 20px;
+  font-family: "Orbitron", sans-serif;
+  transition: transform 0.2s;
+}
+
+.nav-links ul li:hover {
+  text-decoration: underline;
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+}
+
+.search-form {
+  height: 3px;
+  width: 150px;
+  margin-right: 5%;
+  margin-top: 15px;
+}
+
+.search-icon {
+  display: inline-flex;
+  position: absolute;
+  margin-left: 1240px;
+  margin-top: 15px;
+}
+
+.search-input {
+  height: 30px;
+  border-radius: 10px;
+  text-align: center;
+  text-indent: 0%;
+  width: 100%;
+}
+
+.li {
+  float: center;
+  padding: 12px;
+  width: 25%;
+}
+
+.logo {
+  margin-right: 20px;
+}
+
+.center-photos {
+  margin-left: 30px;
+  position: relative;
+  display: inline;
+}
+
+.guy img {
+  position: absolute;
+  width: 400px;
+  height: 500px;
+  margin-left: 80px;
+  margin-top: 70px;
+}
+
+.squares {
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 145px;
+}
+
+.star-bottom {
+  position: absolute;
+  margin-left: 650px;
+  margin-top: 530px;
+}
+
+.globe {
+  margin-left: 800px;
+  margin-top: 30px;
+}
+
+.star-top {
+  margin-left: 1350px;
+  margin-top: 5px;
+}
+
+.text-content {
+  text-align: center;
+  width: 50%;
+  height: 30%;
+  margin-left: 45%;
+}
+
+.heading-line {
+  font-family: "Orbitron", sans-serif;
+  width: auto;
+  font-weight: 800;
+  font-size: 50px;
+}
+
+.paragraph {
+  color: rgb(100, 100, 100);
+}
+
+.bottom-content {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.email {
+  width: 150px;
+  height: 50px;
+  margin-right: 100px;
+}
+
+input {
+  width: 200px;
+  height: 30px;
+  margin-right: 100px;
+  text-align: center;
+  font-family: "Orbitron", sans-serif;
+  border: 2px solid black;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+button {
+  width: 110px;
+  height: 32px;
+  color: rgb(100, 100, 100);
+  background-color: white;
+  font-family: "Orbitron", sans-serif;
+  margin-top: 1px;
+  margin-right: 10px;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+button:hover {
+  color: white;
+  background-color: black;
+}
+
+.contact-links {
+  width: 100%;
+  margin-left: 1000px;
+  margin-top: 5%;
+}
+
+.social-media {
+  position: absolute;
+
+  width: 250px;
+  margin-left: -5.8%;
+  padding-left: 30px;
+}
+
+.contact-links h3 {
+  font-family: "Monaco", sans-serif;
+  color: rgb(100, 100, 100);
+  width: 250px;
+  margin-right: 5%;
+}
+
+p {
+  font-family: "Monaco", sans-serif;
+}
